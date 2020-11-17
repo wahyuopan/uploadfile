@@ -1,0 +1,49 @@
+{
+
+ "Account": {
+"Username": "wahyuopan123",
+     "Password": "karawang2020"
+     },
+ "Target Profit": "1",
+ "Target Win": "5000",
+ "Lose Target": "0",
+ "Reset If Target Profit": "OFF",
+ "Reset If Target Win": "OFF",
+ "Interval": "0",
+ "Config": [{
+
+     "Name Bet Set": "1⃣ Mining Chance 81",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "80",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "80",
+          "Max": "81"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "3",
+              "If Win": "2"
+            }
+        },
+     "If Win": "1.5",
+     "If Lose": "3",
+     "Reset If Win": "2",
+     "Reset If Profit": "0.00000001",
+     "Interval": "0"
+     },{
+
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "100000000000",
+       "Wallet Address":"DHbCMGYBr5w3UFv52LVDfcNzR3xhJNPqMF",
+       "Amount": "10"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
+
+}
